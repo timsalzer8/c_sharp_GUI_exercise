@@ -6,24 +6,24 @@ namespace c_sharp_exercise
 {
     class Program
     {
+        /** Dies ist eine Demonstration,
+         * dass mit diesem Command
+         * mehrere Zeilen Kommentar
+         * möglich sind
+         */
         static void Main(string[] args)
         {
             Console.OutputEncoding = System.Text.Encoding.UTF8;
-            
+
             // Print the cover letter on the command line
             coverletter();
 
             Console.WriteLine("");
             Console.WriteLine("Menge\t\tPreis\t\tGesamt\t\tArtikel");
 
-            /** Diese Zeilen zur Demonstration,
-             * dass mit diesem command,
-             * mehrere Zeilen Kommentar
-             * geschrieben werden kann
-             */
-            invoice(1, 8.49, "Platine");
-            invoice(3, 1.99, "Schrauben");
-            invoice(2, 4.89, "Lötzinn");
+            invoice(2, 8.49, "Platine");
+            invoice(3, 1.99, "Schraube");
+            invoice(1, 4.95, "Lötzinn");
         }
 
         static void coverletter() // Text der Rechnung
