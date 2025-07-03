@@ -16,7 +16,6 @@ namespace c_sharp_exercise
             invoice(2, 8.49);
             invoice(3, 1.99);
             invoice(1, 4.95);
-
         }
 
         static void coverletter()
