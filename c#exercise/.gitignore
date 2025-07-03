@@ -1,0 +1,22 @@
+﻿# 🔧 Visual Studio spezifische Dateien und Ordner
+.vs/
+*.user
+*.suo
+*.vsidx
+
+# ⚙️ Build-Ordner
+bin/
+obj/
+
+# 🧹 Temporäre Dateien
+*.log
+*.tmp
+
+# 🧠 Falls du mal VS Code oder Rider nutzt (optional, schadet aber nicht)
+.vscode/
+.idea/
+
+# 🪟 Windows-Systemdateien (werden oft versehentlich mitgepackt)
+Thumbs.db
+ehthumbs.db
+Desktop.ini
