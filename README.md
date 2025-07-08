@@ -1,1 +1,1 @@
-﻿# c_sharp_GUI_exersice
+﻿# c_sharp_GUI_exercise
